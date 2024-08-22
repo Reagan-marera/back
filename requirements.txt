@@ -55,7 +55,6 @@ SQLAlchemy-serializer==1.4.12
 tomli==2.0.1
 typing_extensions==4.12.2
 urllib3==2.2.2
-vehicle-management==1.0
 virtualenv==20.26.3
 Werkzeug==3.0.3
 wsproto==1.2.0
