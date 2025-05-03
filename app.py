@@ -11,7 +11,7 @@ CORS(app)
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
 SMTP_USERNAME = 'marierareagan@gmail.com'  
-SMTP_PASSWORD = 'ppwkysfmuntbeayn' 
+SMTP_PASSWORD ='lietamatwojkhumw '
 EMAIL_FROM = 'marierareagan@gmail.com'  
 EMAIL_TO = 'marierareagan@gmail.com'  
 
@@ -37,7 +37,7 @@ def contact():
     msg_to_you.attach(MIMEText(body_to_you, 'plain'))
 
    
-    subject_to_user = 'Thank you for contacting us!'
+    subject_to_user = 'Thank you for contacting me!'
     body_to_user = f"Dear {name},\n\nThank you for reaching out to me. i have received your message and will get back to you shortly.\n\nBest regards,\nENG. Reagan"
 
     msg_to_user = MIMEMultipart()
